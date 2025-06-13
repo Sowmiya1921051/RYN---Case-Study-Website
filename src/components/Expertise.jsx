@@ -2,7 +2,7 @@ import React from 'react';
 
 const Expertise = () => {
   return (
-    <section className="bg-[#0e0e0e] text-white py-16 px-4">
+    <section className=" text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl font-bold mb-12">
