@@ -7,6 +7,7 @@ import Works from './components/Works'
 import Experience from './components/Experience'
 import Blog from './components/Blog'
 import Testimonial from './components/Testimonial'
+import Faq from './components/Faq'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Blog />
       <Testimonial />
+      <Faq />
       {/* Uncomment the following lines to enable routing */}
       {/* <Routes>
         <Route path="/" element={<Home />} />
