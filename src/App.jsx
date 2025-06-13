@@ -2,12 +2,15 @@ import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
+import Expertise from './components/Expertise'
 
 function App() {
   return (
     <div>
       <Navbar />
       <Banner />
+      <Expertise />
+      {/* Uncomment the following lines to enable routing */}
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
