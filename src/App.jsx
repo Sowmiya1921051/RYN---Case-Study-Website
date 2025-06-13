@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Expertise from './components/Expertise'
 import Works from './components/Works'
+import Experience from './components/Experience'
+import Blog from './components/Blog'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Banner />
       <Expertise />
       <Works />
+      <Experience />
+      <Blog />
       {/* Uncomment the following lines to enable routing */}
       {/* <Routes>
         <Route path="/" element={<Home />} />

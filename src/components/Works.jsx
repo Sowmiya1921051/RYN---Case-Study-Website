@@ -5,7 +5,7 @@ import Img3 from '../assets/Img3.png'; // replace with your actual image path
 
 const Works = () => {
     return (
-        <section className="bg-[#0e0e0e] text-white py-16 px-4">
+        <section className=" text-white py-16 px-4">
             {/* Header Row */}
             <div className="flex justify-between items-center max-w-7xl mx-auto mb-12">
                 <h2 className="text-4xl font-bold">
