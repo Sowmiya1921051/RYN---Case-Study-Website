@@ -21,7 +21,7 @@ const Works = () => {
                     <img
                         src={Img1}
                         alt="Envelope"
-                        className="rounded-2xl w-full h-auto object-cover"
+                        className="rounded-2xl w-full h-81 object-cover"
                     />
                 </div>
 
@@ -54,7 +54,7 @@ const Works = () => {
                     <img
                         src={Img2}
                         alt="Envelope"
-                        className="rounded-2xl w-full h-auto object-cover"
+                        className="rounded-2xl w-full h-81 object-cover"
                     />
                 </div>
 
@@ -88,7 +88,7 @@ const Works = () => {
                     <img
                         src={Img3}
                         alt="Envelope"
-                        className="rounded-2xl w-full h-auto object-cover"
+                        className="rounded-2xl w-full h-81 object-cover"
                     />
                 </div>
 
