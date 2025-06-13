@@ -6,6 +6,7 @@ import Expertise from './components/Expertise'
 import Works from './components/Works'
 import Experience from './components/Experience'
 import Blog from './components/Blog'
+import Testimonial from './components/Testimonial'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Works />
       <Experience />
       <Blog />
+      <Testimonial />
       {/* Uncomment the following lines to enable routing */}
       {/* <Routes>
         <Route path="/" element={<Home />} />
