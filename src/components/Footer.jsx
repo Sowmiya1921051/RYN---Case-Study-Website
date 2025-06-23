@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto text-center space-y-10">
 
         {/* Let's Talk Section */}
-        <h2 className="text-4xl md:text-5xl font-extrabold">LET’S TALK!</h2>
+        <h2 className="text-white uppercase font-black tracking-[0.08em] text-2xl md:text-6xl lg:text-7xl font-orbitron">LET’S TALK!</h2>
         <p className="flex items-center justify-center gap-2 text-gray-300 hover:underline cursor-pointer">
           rehanurraihan@gmail.com <FaArrowUpRightFromSquare className="inline-block" />
         </p>

@@ -5,7 +5,7 @@ import Profile from '../assets/Profile.png';
 
 const Testimonial = () => {
   return (
-    <section className="bg-[#0b0b0d] text-white py-20 px-6 font-sans">
+    <section className="bg-[#0b0b0d] text-white  px-6 font-sans">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-14 flex items-center">
@@ -39,14 +39,14 @@ const Testimonial = () => {
 
             {/* Arrows */}
             {/* Arrows */}
-<div className="flex justify-center gap-4 mt-10">
-  <button className="bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition">
-    <FaArrowLeft className="text-gray-400" />  {/* Light color */}
-  </button>
-  <button className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition">
-    <FaArrowRight />
-  </button>
-</div>
+            <div className="flex justify-center gap-4 mt-10">
+              <button className="bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition">
+                <FaArrowLeft className="text-gray-400" />  {/* Light color */}
+              </button>
+              <button className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition">
+                <FaArrowRight />
+              </button>
+            </div>
 
           </div>
         </div>
