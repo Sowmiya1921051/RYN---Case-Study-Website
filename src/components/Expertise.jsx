@@ -2,7 +2,7 @@ import React from 'react';
 
 const Expertise = () => {
   return (
-    <section className=" text-white py-16 px-4">
+    <section className=" text-white  px-4">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl font-bold mb-12">
@@ -21,7 +21,7 @@ const Expertise = () => {
 
           {/* UI Design */}
           <div>
-            <h3 className="text-lg font-bold mb-2">▪ UI Design</h3>
+            <h3 className="text-lg font-bold mb-2 font-sharetech">▪ UI Design</h3>
             <p className="text-gray-300 leading-relaxed">
               I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites.
             </p>

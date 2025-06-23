@@ -6,17 +6,6 @@ const Footer = () => {
     <footer className="bg-[#0b0b0d] text-white py-16 px-4">
       <div className="max-w-6xl mx-auto text-center space-y-10">
 
-        {/* Scrolling/Decorative Text */}
-        <div className="flex flex-wrap justify-center gap-6 text-2xl md:text-4xl font-bold tracking-wider">
-          <span className="border-white border-2 px-4 py-1">FLOW</span>
-          <span className="text-xl">✺</span>
-          <span className="border-white border-2 px-4 py-1">FIGMA</span>
-          <span className="text-xl">✺</span>
-          <span className="border-white border-2 px-4 py-1">DESIGNER</span>
-          <span className="text-xl">✺</span>
-          <span className="border-white border-2 px-4 py-1">DEVELOPER</span>
-        </div>
-
         {/* Let's Talk Section */}
         <h2 className="text-4xl md:text-5xl font-extrabold">LET’S TALK!</h2>
         <p className="flex items-center justify-center gap-2 text-gray-300 hover:underline cursor-pointer">

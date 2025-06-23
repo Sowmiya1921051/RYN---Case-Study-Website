@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
     const [active, setActive] = useState('Home');
@@ -7,9 +8,11 @@ const Navbar = () => {
 
     return (
         <nav className="bg-black text-white py-4">
-            <div className="container mx-auto px-8 flex justify-between items-center">
+            <div className="container mx-auto px-1 flex justify-between items-center">
                 {/* Left - Logo */}
-                <div className="text-xl font-bold mr-8">MyLogo</div>
+                <div className="mr-8">
+                    <img src={logo} alt="Logo" className="h-8 w-auto" />
+                </div>
 
                 {/* Center - Menu */}
                 <ul className="flex-1 flex justify-center space-x-6 text-lg">

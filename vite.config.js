@@ -7,7 +7,11 @@ export default defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        michroma: ['"Michroma"', 'sans-serif'],
+        // michroma: ['"Michroma"', 'sans-serif'],
+        oswald: [ 'serif'], 
+        orbitron: ['Orbitron', 'Arial', 'sans-serif'], 
+        michroma: ['Michroma', 'sans-serif'],
+        sharetech: ['Share Tech', 'sans-serif'],
       },
     },
   },
